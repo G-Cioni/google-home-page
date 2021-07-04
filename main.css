@@ -1,0 +1,34 @@
+@import url(https://fonts.google.com/specimen/Open+Sans?query=sans#standard-styles);
+body {
+    font-family: sans-serif;
+}
+#container {
+    display: grid;
+    
+}
+
+#googlelogo {
+    position:
+}
+
+#profilepic {
+    border-radius: 50px;
+}
+
+#italiano {
+    color:blue;
+
+}
+
+#italiano:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: rgb(241, 240, 240);
+}
+
+button {
+    border: transparent;
+    padding: 8px
+}
