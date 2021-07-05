@@ -137,6 +137,9 @@ button:hover {
     text-decoration: underline;
 }
 
+#empty-space {
+    height: 180px;
+}
 #nation {
     background-color: rgba(242,242,242,255);
     color: rgba(137,136,136,255);
