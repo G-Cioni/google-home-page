@@ -1,18 +1,44 @@
 @import url(https://fonts.google.com/specimen/Open+Sans?query=sans#standard-styles);
 body {
     font-family: sans-serif;
+    
 }
-#container {
-    display: grid;
+
+li {
+    display: inline-block;
+}
+#top {
+    text-align:right;
+}
+
+.top-li-1 {
+    margin-right: 15px;
+    padding-top: -20px;
+    color: rgb(49, 47, 47);
+    font-size: 13px;
+}
+
+#center {
+    text-align: center;
+    margin-top: 300px;
     
 }
 
 #googlelogo {
-    position:
+    
 }
 
 #profilepic {
     border-radius: 50px;
+    margin: 14px 18px 0px 8px
+}
+
+
+#googleapps {
+    width: 16px;
+    height: auto;
+    margin-bottom: 8px;
+    margin-right: 9px
 }
 
 #italiano {
@@ -26,9 +52,54 @@ body {
 
 #footer {
     background-color: rgb(241, 240, 240);
+    justify-content: bottom;
+    position: sticky;
+    margin-top: 500px;
 }
 
 button {
     border: transparent;
     padding: 8px
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+
+
+
+
+#searchbar {
+    height: 35px;
+    width: 600px;
+    border-radius: 50px;
+}
+
+#center-text {
+    font-size: 13px
+}
+
+#foot1 {
+    margin-left: 120px;
+    display: inline;
+}
+
+#foot2 {
+    text-align: right;
+    display: inline;
+    margin-left: 120px
+}
+
+.foot-li-1 {
+    font-size: 15px;
+    margin: 14px;
+    color:rgba(122, 122, 122, 0.884)
+}
+
+.foot-li-2 {
+    font-size: 15px;
+    margin: 14px;
+    color:rgba(122, 122, 122, 0.884)
 }
