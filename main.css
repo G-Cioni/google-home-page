@@ -54,7 +54,7 @@ li {
     background-color: rgb(241, 240, 240);
     justify-content: bottom;
     position: sticky;
-    margin-top: 500px;
+    margin-top: 320px;
 }
 
 button {
@@ -88,7 +88,7 @@ button {
 
 #foot2 {
     text-align: right;
-    display: inline;
+    display: inline-block;
     margin-left: 120px
 }
 
