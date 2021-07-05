@@ -9,38 +9,16 @@ html, body {
 #container {
     min-height: 100%;
     display: grid;
-
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: "nav"
-                         "main"
+    grid-template-rows: auto 1fr auto auto;
+    grid-template-areas: "nav "
+                         "main "
+                         "nation"
                          "footer";
 }
 
 nav {
     grid-area: nav;
 }
-
-main {
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-footer {
-    grid-area: footer;
-    background-color: rgba(133, 133, 133, 0.068);
-}
-
-#foot-left {
-   
-}
-
-#foot-right {
-   
-}
-
 
 #nav-list {
     display: flex;
@@ -53,8 +31,53 @@ footer {
     margin: 15px;
 }
 
+main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#glogo {
+    margin-bottom: 10px;
+}
+#search {
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+}
+button {
+    border: transparent;
+    padding: 10px 15px;
+    background-color: rgba(242,242,242,255);
+    margin: 10px 15px;
+}
+
+#nation {
+    background-color: rgba(242,242,242,255);
+}
+footer {
+    grid-area: footer;
+    min-width: 100%;
+    display: flex;
+    flex-grow: auto 1fr auto;
+    background-color: rgba(242,242,242,255);
+    padding-left: 60px;
+}
+
+#space {
+    display: inline-block;
+}
+
+
+
+ul {
+    display: inline;
+}
 #glogo {
     width: 272px;
     height: 92px;
 }
+
 
