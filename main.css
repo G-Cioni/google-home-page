@@ -14,9 +14,10 @@ html, body {
     font-size: smaller;
     min-height: 100%;
     display: grid;
-    grid-template-rows: auto 1fr auto auto;
+    grid-template-rows: auto 1fr minmax(auto, 180px) auto auto;
     grid-template-areas: "nav "
                          "main "
+                         "empty"
                          "nation"
                          "footer";
 }
@@ -90,27 +91,29 @@ main {
     border-color: rgba(128, 128, 128, 0.199);
     border-width: .5px;
     background-color: white;
+    box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.719);
+
 }
 
 
 #search {
-    width: 570px;
-    height: 40px;
+    width: 515px;
+    height: 42px;
     border-radius: 50px;
     border-color: gray;
-    border-width: .5px;
+    border-width: 0px;
 }
 
 #magnify {
-    height: 30px;
+    height: 20px;
     border-radius: 50px;
-    padding-left: 3px;
+    padding-left: 12px;
 }
 
 #mic {
-    height: 30px;
+    height: 27px;
     border-radius: 50px;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 .searchbar:hover {
     box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.384);
@@ -139,6 +142,8 @@ button:hover {
 
 #empty-space {
     height: 180px;
+    grid-area: empty;
+    flex-shrink: 6;
 }
 #nation {
     background-color: rgba(242,242,242,255);
