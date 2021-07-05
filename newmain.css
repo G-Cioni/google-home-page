@@ -1,3 +1,32 @@
 #gapps {
     height: 15px;
 }
+
+#container {
+    display: grid;
+    grid-template-columns: 70% 10%;
+    grid-template-rows: 30px auto 70px;
+    grid-template-areas: ". nav"
+                         "main main"
+                         "footer footer";
+    
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: foot-left;
+}
+
+.nav-button {
+    display:inline-block;
+    text-align: right;
+}
+
+
